@@ -4,6 +4,4 @@
 -- VALUES
 --     ("Cheeseburger", false),
 --     ("BigMac", false),
---     ("Double Stack", false)
--- ,
-    
+--     ("Double Stack", false);
