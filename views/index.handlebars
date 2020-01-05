@@ -4,11 +4,19 @@
         <h1>Eat-Da-Burger!</h1>
     </div>
 
-    {{#each burgers}}
-    <span>{{this.id}}.</span>
-    {{this.burger_name}}
-    {{this.devoured}}
-    <br>
-    {{/each}}
+    <h2>Add a Burger</h2>
+    <form class="create-form">
+
+        <div class="form-group">
+            <label for="burger">Add a Burger:</label>
+            <input type="text" id="newburger" name="name">
+        </div>
+
+        {{#each burgers}}
+        <span>{{this.id}}.</span>
+        {{this.burger_name}}
+        {{this.devoured}}
+        <br>
+        {{/each}}
 
 </div>
