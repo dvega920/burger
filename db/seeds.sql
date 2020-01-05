@@ -1,7 +1,9 @@
-INSERT INTO burgers
-    (burger_name, devoured)
-VALUES
-    ("Cheeseburger", 1),
-    ("BigMac", 0),
-    ("Double Stack", 1)
+-- USE burgers_db;
+-- INSERT INTO burgers
+--     (burger_name, devoured)
+-- VALUES
+--     ("Cheeseburger", false),
+--     ("BigMac", false),
+--     ("Double Stack", false)
+-- ,
     
